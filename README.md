@@ -21,3 +21,7 @@ Os dados do acervo podem ser editados no array `works`, em `script.js`. O restan
 Os cartazes e as peças de livros são composições tipográficas originais para o site; não representam cartazes oficiais nem capas reais. Não foram inventados depoimentos, contatos, pinturas ou créditos em novelas. As fotos foram copiadas dos arquivos existentes no projeto; a autoria fotográfica não foi informada.
 
 O servidor Node serve apenas para prévia local. Ele não faz parte do site publicado. A hospedagem Sites começa privada, para revisão.
+
+## Prévia do WhatsApp
+
+O HTML usa tags Open Graph para WhatsApp e redes sociais: og:title, og:description, og:url, og:image, og:image:width, og:image:height e twitter:card. A URL prevista é https://marciovaccari.pages.dev/. Se o domínio do Cloudflare Pages for diferente, substitua marciovaccari.pages.dev nas tags de dist/index.html antes de publicar.
